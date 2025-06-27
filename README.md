@@ -4,9 +4,9 @@ Next.js × TypeScript で実装したローカル完結型の Todo 管理アプ�
 状態管理には Context + useReducer を使用し、型安全かつコンポーネント志向での開発を意識しました。
 
 <img src="./docs/loading-screen.png" width="400" />
-<img src="./docs/todo-full-ui.png" width="400" />
-<img src="./docs/delete-modal.png" width="400" />
-<img src="./docs/no-todo.png" width="400" />
+<img src="./docs/app-overview.png" width="400" />
+<img src="./docs/delete-all-modal.png" width="400" />
+<img src="./docs/empty-task-list.png" width="400" />
 
 ## 🚀 実装済みの機能
 
