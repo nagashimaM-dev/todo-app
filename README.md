@@ -1,35 +1,34 @@
-# 📝 やることリスト（TODO アプリ）
+# 📝 React × TypeScript 製 Todo アプリ
 
-これは、個人で制作したタスク管理用の TODO リストアプリです。  
-日々のやることを整理し、進捗を可視化することで、**作業効率の向上**を目指しています。
+Next.js × TypeScript で実装したローカル完結型の Todo 管理アプリです。  
+状態管理には Context + useReducer を使用し、型安全かつコンポーネント志向での開発を意識しました。
 
-## ✅ アプリの主な特徴
+<img src="./docs/screenshot/loading-screen.png" width="400" />
+<img src="./docs/screenshot/todo-full-ui.png" width="400" />
+<img src="./docs/screenshot/delete-modal.png" width="400" />
+<img src="./docs/screenshot/no-todo.png" width="400" />
 
-- タスクの追加・削除・完了チェックが可能
-- 進捗バーによる達成度の表示
-- 空のリストやロード中の画面も親しみやすくデザイン
-- シンプルな操作性と、やさしい UI 設計
+## 🚀 実装済みの機能
 
----
+- Todo の追加・編集・削除・完了切替（キーボード操作対応）
+- ローカルストレージに保存＆初回ローディング時のダミー遅延表示
+- 進捗バー・完了 Todo の非表示切り替え・空リスト時の専用画面
+- 全削除時の確認モーダル
+- スクロール自動制御（追加時は最下部へ、削除時は最上部へ）
 
-## 💻 使用技術
+## 🧠 技術構成
 
-| 技術                     | 内容                                |
-| ------------------------ | ----------------------------------- |
-| Next.js                  | フレームワーク（App Router 未使用） |
-| React                    | UI 構築、Hooks を用いた状態管理     |
-| TypeScript               | 型安全な開発                        |
-| Context API + useReducer | グローバル状態の管理                |
-| CSS Module               | コンポーネント単位のスタイリング    |
+- **フロントエンド**: React (Next.js) + TypeScript
+- **状態管理**: React Context + useReducer
+- **スタイル**: CSS Modules
+- **データ永続化**: LocalStorage
 
----
-
-## 🚀 起動方法（ローカル環境）
+## 🔧 起動方法
 
 ```bash
-# パッケージのインストール
+# パッケージをインストール
 npm install
 
-# 開発サーバーの起動
+# 開発サーバーを起動
 npm run dev
 ```
