@@ -5,12 +5,40 @@
 Next.js × TypeScript で約 4 日間かけて作成した、ローカル完結型の Todo 管理アプリです。
 状態管理には Context + useReducer を使用し、型安全かつコンポーネント志向の開発を意識しました。
 
+---
+
+## 🖼️ 画面キャプチャ
+
+### 🌀 起動時：読み込み中の画面
+
 <div align="center">
-<img src="./docs/loading-screen.png" width="350" />
-<img src="./docs/app-overview.png" width="350" />
-<img src="./docs/delete-all-modal.png" width="350" />
-<img src="./docs/empty-task-list.png" width="350" />
+  <img src="./docs/loading-screen.png" width="500" />
 </div>
+
+---
+
+### 📭 タスクがひとつもないときの画面
+
+<div align="center">
+  <img src="./docs/empty-task-list.png" width="500" />
+</div>
+
+---
+
+### 📋 タスク一覧・追加・進捗確認ができるメイン画面
+
+<div align="center">
+  <img src="./docs/app-overview.png" width="500" />
+</div>
+
+---
+
+### ⚠️ 「すべて削除」ボタンを押した際の確認モーダル
+
+<div align="center">
+  <img src="./docs/delete-all-modal.png" width="500" />
+</div>
+
 ---
 
 ## 🚀 主な機能
