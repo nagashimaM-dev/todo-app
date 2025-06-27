@@ -1,0 +1,14 @@
+/* グローバル */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', 'Yomogi', sans-serif;
+  font-size: 18px;
+  background-color: #f4f2ff;
+}
+
+input,
+button {
+  font-family: inherit;
+}
