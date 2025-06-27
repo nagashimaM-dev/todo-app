@@ -1,20 +1,16 @@
----
-
 ### `README.md`
 
-```md
 # 📝 React × TypeScript 製 Todo アプリ
 
-Next.js × TypeScript で約4日間かけて作成した、ローカル完結型の Todo 管理アプリです。  
+Next.js × TypeScript で約 4 日間かけて作成した、ローカル完結型の Todo 管理アプリです。
 状態管理には Context + useReducer を使用し、型安全かつコンポーネント志向の開発を意識しました。
 
 <div align="center">
-  <img src="./docs/loading-screen.png" width="350" />
-  <img src="./docs/app-overview.png" width="350" />
-  <img src="./docs/delete-all-modal.png" width="350" />
-  <img src="./docs/empty-task-list.png" width="350" />
+<img src="./docs/loading-screen.png" width="350" />
+<img src="./docs/app-overview.png" width="350" />
+<img src="./docs/delete-all-modal.png" width="350" />
+<img src="./docs/empty-task-list.png" width="350" />
 </div>
-
 ---
 
 ## 🚀 主な機能
